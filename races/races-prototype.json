@@ -1,0 +1,111 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Test",
+				"abbreviation": "Test",
+				"full": "Test Race Prototype",
+				"authors": [
+					"Vico"
+				]
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Test Race",
+			"source": "Test",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": {
+				"con": 2
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Age description."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Alignment description."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Size description."
+					]
+				},
+				{
+					"name": "Test entry 1",
+					"entries": [
+						"Entry description."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Test entry 2",
+					"entries": [
+						"Entry description."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Test subrace 1",
+					"ability": {
+						"str": 1
+					},
+					"entries": [
+						{
+							"name": "Subrace 1 entry",
+							"entries": [
+								"Entry description."
+							],
+							"type": "entries"
+						}
+					],
+					"traitTags": [
+						"Skill Proficiency"
+					]
+				},
+				{
+					"name": "Test subrace 2",
+					"ability": {
+						"wis": 1
+					},
+					"entries": [
+						{
+							"name": "Subrace 2 entry",
+							"entries": [
+								"Entry description."
+							],
+							"type": "entries"
+						}
+					],
+					"traitTags": [
+						"Skill Proficiency"
+					]
+				}
+			],
+			"traitTags": [
+				"Improved Resting",
+				"Natural Armor"
+			],
+			"languageTags": [
+				"Other",
+				"Common",
+				"Choose"
+			]
+		}
+	]
+}
